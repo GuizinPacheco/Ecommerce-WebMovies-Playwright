@@ -1,14 +1,26 @@
 # Ecommerce-WebMovies-Playwright
-O repositório se destina a testar o projeto WebMovies. O projeto Web Movies realiza o papel de ecommerce de filmes, apresentando tela de listagem de filme, onde é possuir selecionar itens para comprar através do conceito de carrinhos de compras, e posteriormente temos a experiência de compra do usuário. 
+
+Este repositório contém testes automatizados para o projeto WebMovies, um e-commerce de filmes. O WebMovies permite que os usuários naveguem pela lista de filmes, adicionem itens ao carrinho e realizem a experiência completa de compra.
+
+##  Como rodar os testes
+
+Após clonar o repositório, basta executar o comando:
+
+npx playwright test
 
 
-Ao clonar repositório
-Basta rodar: npx playwright test
+Este comando executará todos os testes agrupados em uma única rotina:
 
-Este único comando será responsável por rodar os três testes solicitados agrupados em um única rotina: 
-•	Validação do fluxo completo Desktop
-•	Validação do fluxo completo Mobile
-•	Validação de teste regressivo
+- Validação do fluxo completo (Desktop)
 
-Teste adicional incluído:
-•	Validação Desktop de dois navegadores: Chrome e Edge.
+- Validação do fluxo completo (Mobile)
+
+- Validação de teste regressivo
+
+## Testes adicionais
+
+Além dos testes principais, também foi incluída a validação Desktop em dois navegadores diferentes:
+
+- Chrome
+
+- Edge
